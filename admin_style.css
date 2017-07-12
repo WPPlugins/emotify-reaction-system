@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+.clearfix:after{
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}
+.emotify_img_icon img {
+  width: 100%
+}
+.emotify_img_icon {
+  float: left;
+  width: 32px;
+}
+.emotify_head {
+  float: left;
+}
+/* .emotify_img_icon > img {
+  width: 100%;
+} */
+.emotify_head {
+  float: left;
+  margin-left: 10px;
+  width: 95%;
+}
+.emotify_head h1,
+.links_head h1 {
+  padding-top: 0px;
+}
+.links_url {
+  list-style: outside none disc;
+}
+.useful_links {
+  padding-left: 15px;
+}
+.hr {
+  margin: 30px auto;
+  padding-right: 20px;
+}
+
+div.emotify_updated {
+  background: #fff none repeat scroll 0 0;
+  border-left: 4px solid #46b450;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  margin: 5px 0 2px;
+  padding: 10px 12px;
+}
+
+.links_url a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+li#toplevel_page_emotify_page .wp-not-current-submenu:hover{
+  opacity: 0.6!important;
+}
+#adminmenu #toplevel_page_emotify_page .current .wp-menu-image img {
+  opacity: 1;
+}
+form#emotify-form {
+  margin-top: 0 !important;
+}
+.wrap div.notice {
+  margin-bottom: 0 !important;
+}
+button.cancel-btn {
+  position: absolute;
+  right: 30px;
+  top: 50px;
+}
+button.cancel-btn {
+  position: absolute;
+  right: 20px;
+  top: 61px;
+}
+.emotify_btn {
+  margin-top: 21px !important;
+}
+.emo_heading {
+  margin-top: 20px !important;
+}
